@@ -1,6 +1,6 @@
 # Linear Regression train by Gradient Descent and Visualize It
 ## Description
-* Use Python Numpy and matplotlib, simply implement Linear Regression and show training weight trace in each step also visualize with contour figure.
+* Use Python Numpy and matplotlib, simply implement Linear Regression and show training weight trace in each step <br>also visualize with contour figure.
 ## Implement Details
 * Goal: Consider Following Data: 
 ```python=
