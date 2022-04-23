@@ -12,7 +12,7 @@
 
 
 ## Code OutLook:
-```python
+```python=
 # initial weight and bias
 b=-120
 w=-4
