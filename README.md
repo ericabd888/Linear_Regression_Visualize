@@ -1,3 +1,4 @@
+<style>
 body {
   font-size: 62.5%;
   /*sets 1em to 10px for convenience*/
@@ -11,6 +12,7 @@ p img {
   height: 1em;
   width: auto;
 }
+</style>
 # Linear Regression train by Gradient Descent and Visualize It
 ## Description
 * Use Python Numpy and matplotlib, simply implement Linear Regression and show training weight trace in each step <br>also visualize with contour figure.
