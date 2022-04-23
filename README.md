@@ -1,10 +1,23 @@
+body {
+  font-size: 62.5%;
+  /*sets 1em to 10px for convenience*/
+}
+
+p {
+  font-size: 3em;
+}
+
+p img {
+  height: 1em;
+  width: auto;
+}
 # Linear Regression train by Gradient Descent and Visualize It
 ## Description
 * Use Python Numpy and matplotlib, simply implement Linear Regression and show training weight trace in each step <br>also visualize with contour figure.
 ## Implement Details
 * We need to use a function <img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;Y&space;=&space;WX&space;&plus;&space;B&space;}"> to fit Features(x_data) and Target(y_data)
 * Here we use gradient descent to update ours weights
-* Loss Function: <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;MSE=\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;}"></img></div>
+* <p>Loss Function: <img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;MSE=\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;}"></img></p>
 * Gradient: Calculate partial differential of Loss Fucntion
     * Let <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2&space;}"></div>
     * <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;w}&space;=&space;\sum\limits_{i=1}^{n}2x_i(b_i&plus;w_ix_i-y_i)}"></div>
