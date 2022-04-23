@@ -8,6 +8,7 @@
 * <img src="https://latex.codecogs.com/svg.image?&space;&space;L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2&space;">
 * Gradient: Calculate partial differential of Loss Fucntion
     * Let <span style="position:relative;"><img src="https://latex.codecogs.com/svg.image?L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2"/></span>
+    * <li><span style="top:-5px; position:relative;">Text shifted 5px upper</span></li>
     * <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;w}&space;=&space;\sum\limits_{i=1}^{n}2x_i(b_i&plus;w_ix_i-y_i)}"></div>
     * <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;b}&space;=&space;\sum\limits_{i=1}^{n}2(b_i&plus;w_ix_i-y_i)}"></div>
 
