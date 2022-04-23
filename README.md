@@ -6,9 +6,9 @@
 * Here we use gradient descent to update ours weights
 * Loss Function:<br><img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;&space;L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2&space;}">
 * Gradient: Calculate partial differential of Loss Fucntion
-    * Let <br>&nbsp&nbsp&nbsp&nbsp<span style="position:relative;"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2}"/></span>
-    * <br>&nbsp&nbsp&nbsp&nbsp<div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;w}&space;=&space;\sum\limits_{i=1}^{n}2x_i(b_i&plus;w_ix_i-y_i)}"></div>
-    * <br>&nbsp&nbsp&nbsp&nbsp<div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;b}&space;=&space;\sum\limits_{i=1}^{n}2(b_i&plus;w_ix_i-y_i)}"></div>
+    * Let <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="position:relative;"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2}"/></span>
+    * <br>&nbsp;&nbsp;&nbsp;&nbsp;<div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;w}&space;=&space;\sum\limits_{i=1}^{n}2x_i(b_i&plus;w_ix_i-y_i)}"></div>
+    * <br>&nbsp;&nbsp;&nbsp;&nbsp;<div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;b}&space;=&space;\sum\limits_{i=1}^{n}2(b_i&plus;w_ix_i-y_i)}"></div>
 
 
 ## Code OutLook:
