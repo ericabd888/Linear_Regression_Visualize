@@ -4,13 +4,9 @@
 ## Implement Details
 * We need to use a function <img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;Y&space;=&space;WX&space;&plus;&space;B&space;}"> to fit Features(x_data) and Target(y_data)
 * Here we use gradient descent to update ours weights
-* *E = mc<sup>2</sup>*
-* <img src="https://latex.codecogs.com/svg.image?&space;&space;L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2&space;">
+* <img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;&space;L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2&space;}">
 * Gradient: Calculate partial differential of Loss Fucntion
-    * Let <span style="position:relative;"><img src="https://latex.codecogs.com/svg.image?L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2"/></span>
-    * span>How are you</span><span style="top:10px; position:relative;"><img src="https://latex.codecogs.com/svg.image?L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2"/></span>
-    * <span style="display:block;text-align:center">![Test Automation](https://latex.codecogs.com/svg.image?L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2)</span>
-    * <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2" /></div>
+    * Let <span style="position:relative;"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2}"/></span>
     * <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;w}&space;=&space;\sum\limits_{i=1}^{n}2x_i(b_i&plus;w_ix_i-y_i)}"></div>
     * <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;b}&space;=&space;\sum\limits_{i=1}^{n}2(b_i&plus;w_ix_i-y_i)}"></div>
 
