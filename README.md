@@ -4,7 +4,7 @@
 ## Implement Details
 * We need to use a function <img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;Y&space;=&space;WX&space;&plus;&space;B&space;}"> to fit Features(x_data) and Target(y_data)
 * Here we use gradient descent to update ours weights
-* Loss Function: <img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;MSE=\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;}" align="left">
+* <img src="https://latex.codecogs.com/svg.image?\text{how&space;are&space;you&space;$&space;L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2&space;$}">
 * Gradient: Calculate partial differential of Loss Fucntion
     * Let <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{&space;L&space;=&space;\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2&space;=&space;\sum\limits_{i=1}^{n}(y_i-(wx&plus;b))^2&space;}"></div>
     * <div style="text-align:center"><img src="https://latex.codecogs.com/svg.image?\color{Gray}{\frac{\partial&space;L}{\partial&space;w}&space;=&space;\sum\limits_{i=1}^{n}2x_i(b_i&plus;w_ix_i-y_i)}"></div>
