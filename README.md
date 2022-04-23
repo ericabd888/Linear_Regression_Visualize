@@ -4,8 +4,7 @@
 ## Implement Details
 [Contribution guidelines for this project](04_20_meeting.pdf)
 * We need to use a function  to fit Features(x_data) and Target(y_data)
-* <img src="https://latex.codecogs.com/svg.image?x^2" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
-* https://latex.codecogs.com/svg.image?x^2
+* <img src="https://latex.codecogs.com/svg.image?x^2{\color{White}&space;}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 * Here we use gradient descent to update ours weights
 * Loss Function: $MSE=\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2$ 
 * Gradient: Calculate partial differential of Loss Fucntion
