@@ -2,7 +2,8 @@
 ## Description
 * Use Python Numpy and matplotlib, simply implement Linear Regression and show training weight trace in each step <br>also visualize with contour figure.
 ## Implement Details
-* We need to use a function  $ Y=W \times X + B $ to fit Features(x_data) and Target(y_data)
+
+* We need to use a function <img src="https://render.githubusercontent.com/render/math?math=Y=W \times X + B"> to fit Features(x_data) and Target(y_data)
 * Here we use gradient descent to update ours weights
 * Loss Function: $MSE=\sum\limits_{i=1}^{n}(y_i-\hat{y}_i)^2$ 
 * Gradient: Calculate partial differential of Loss Fucntion
